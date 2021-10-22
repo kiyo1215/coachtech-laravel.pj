@@ -9,8 +9,9 @@
 </head>
 
 <body>
-  <h1>{{$txt}}</h1>
+  <p>{{$txt}}</p>
   <form action="/" method="POST">
+    <table>
     @csrf
     <tr>
         <th>名前</th>
